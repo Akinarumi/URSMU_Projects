@@ -1,0 +1,80 @@
+.section-header{
+    width: 90%;
+    margin: 0 auto;
+    &__navbar{
+        width: 90%;
+        margin: 0 auto;
+        border-bottom: 1px solid rgba(255,255,255, 0.2);
+        ul{
+            display: flex;
+            justify-content: baseline;
+            a{
+                width: 100%;
+                margin: 0 auto;
+                text-decoration: none;
+                
+                li{
+                    width: 25%;
+                    list-style-type: none;
+                    font-size: 20px;
+                    color: whitesmoke;
+                    
+                }
+            }
+            
+        }
+    }
+    &__main{
+        width: 100%;
+        margin-top: 100px;
+        &__top{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            flex-flow: wrap;
+            flex-direction: column;
+            
+            &__title{
+                font-size: 36px;
+            }
+            &__subtitle{
+                font-size: 20px;
+            }
+        }
+        &__bottom{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+            &__block{
+                width: 30%;
+                &__pic{
+                    img{
+                        width: 250px;
+                        height: 300px;
+                    }
+                }
+                &__name{
+                                
+                    ul{
+                        
+                        
+                            width: 100%;
+                            margin: 0 auto;
+                            text-decoration: none;
+                            li{
+                                width: 90%;
+                                margin: 0 auto;
+                                list-style-type: none;
+                                font-size: 18px;
+                                color: whitesmoke;
+                                padding-top: 10px;
+                               
+                            }
+                
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+//fonts
+@font-face{
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+body{
+    background-color: #282828;
+    color: whitesmoke;
+    font-family:'Roboto';
+}
+.section-inner{
+    width: 1360px;
+    padding: 0px;
+    margin: 0 auto;
+}
+.section-outer{
+    padding: 0px;
+    margin: 0 auto;
+}
+
+@import '_normalize';
+@import 'header';
+@import 'main';
+@import 'work';
+@import 'comments';
+@import 'footer';
